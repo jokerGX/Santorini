@@ -1,0 +1,105 @@
+#board {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: rgb(253, 251, 250);
+    padding: 20px
+  }
+  
+  .cell {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    background-color: rgba(100, 255, 255, 0.8);
+    border: 1px solid rgba(2, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    height: 20vmin;
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cell:hover {
+    background-color: rgba(9, 35, 237, 0.8);
+  }
+  
+  #bottombar {
+    height: 5vh;
+  }
+  
+  #instructions {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    height: 5vh;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  #bottombar button {
+    width: 50%;
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    font-size: 2vw
+  }
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hasWorker0{ background-color: rgb(219, 22, 219);}
+  .hasWorker1{ background-color: rgb(237, 187, 6)}
+  .maxHeight{ background-color: rgb(255, 255, 255)}
+
+  .role-selection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+    background-color: #48434360; /* Light grey background, you can choose your color */
+    font-size: 1.2em; /* Larger font size */
+  }
+  
+  .role-selection-container h2 {
+    font-size: 2.5em; /* Even larger font size for the heading */
+    color: #333; /* Dark text color for contrast */
+    margin-bottom: 30px;
+  }
+  
+  .role-selection-container label {
+    margin-right: 10px;
+    display: block; /* Labels on their own line */
+    margin-bottom: 10px;
+  }
+  
+  .role-selection-container select {
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    width: 200px; /* Set a width for the select boxes */
+  }
+  
+  .role-selection-container button {
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+  }
+  
+  .role-selection-container button:hover {
+    background-color: #45a049;
+  }
+  
+  
